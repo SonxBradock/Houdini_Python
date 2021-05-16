@@ -1,0 +1,34 @@
+Python useful commands
+
+#important information, when create a code follow by the :, we must use tab in the next line, otherwise the code won't work.
+_______________________________________________________________________________
+import hou
+
+mylistName = ['value1', 'value2', 'value3...']
+
+def sorter(val):
+    return len(str(val))
+
+mylistName.sort(key=sorter)
+print mylistName
+________________________________________________________________________________
+
+Myvariable = 1
+
+for x in range(8):
+    Myvariable += Myvariable
+    
+print Myvariable
+
+________________________________________________________________________________
+
+MyDict = {
+	‘Color’ : (1.0, 0.0, 0.0),		# that is a good well to represent a dict array.
+	‘Year’ : 2019,
+	‘wheels’ : 4,
+	}
+
+for K,V in MyDict.items():
+	print K,V
+
+_______________________________________________________________________________
